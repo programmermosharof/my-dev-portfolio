@@ -83,7 +83,7 @@ header{
    
    
     background: url(../images/developer.png), url(/images/header_bg.png);
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     background-color: #FFF8F3;
     padding-top: 50px;
@@ -124,9 +124,10 @@ nav .menu a{
     /* Contact */
 /* Rectangle 1 */
 width: 160px;
-height: 64px;
+height: 60px;
  color: rgba(253, 110, 10, 1);
-border: 1px solid rgba(253, 110, 10, 1); ;  
+border: 1px solid rgba(253, 110, 10, 1); 
+border-radius: 5px; 
 font-family: Open Sans;
 font-style: Bold;
 font-size: 20px;
@@ -198,4 +199,220 @@ height: 676px;
     background-color: #FFF8F3;
     padding: 131px 156px;
     text-align: center;
+}
+
+.skill{
+    padding-top: 130px;
+}
+.skills{
+    width: 1440px;
+    margin: 0 auto;
+}
+.skill-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    /* gap: 24px; */
+}
+
+.skill-card{
+ padding: 30px;
+    
+width: 267px;
+
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgba(255, 255, 255, 1);
+}
+.skill-card h3 {
+    color: rgba(24, 24, 24, 1);
+
+font-family: Open Sans;
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.skill-card p{
+color: rgba(117, 117, 117, 1);
+font-family: Open Sans;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#resume{
+    padding-top: 130px;
+}
+.resume-container{
+
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.section-title{
+    color:rgba(71, 71, 71, 1);
+
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.card-title{
+    color:  rgba(71, 71, 71, 1);
+
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.card-info{
+    color:  rgba(117, 117, 117, 1);
+
+font-family: Open Sans;
+font-style: SemiBold;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+
+.card-text{
+    color:  rgba(117, 117, 117, 1);
+
+font-family: Open Sans;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+hr{
+   margin: 30px 0px;
+
+}
+.resume-card{
+    max-width: 511px;
+   margin-right: 47px;
+}
+
+.text-center{
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+   
+
+
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+   
+}
+
+footer .footer-container {
+     max-width: 1440px;
+     margin: 0px auto;
+
+
+    display: flex;
+    justify-content: space-around;
+    gap: 116px;
+}
+
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container .social {
+    max-width: 562px;
+}
+
+.footer-container .social p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+    color: #757575
+}
+.social h2{
+color:  rgba(24, 24, 24, 1);
+
+font-family: Open Sans;
+font-style: Bold;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.social p {
+    width: 562px;
+height: 56px;
+    color:  rgba(71, 71, 71, 1);
+
+font-family: Open Sans;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.form h2 {
+color:  rgba(24, 24, 24, 1);
+
+font-family: Open Sans;
+font-style: Bold;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
 }
