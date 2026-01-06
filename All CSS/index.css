@@ -25,15 +25,67 @@
 .r{
     color:rgba(253, 110, 10, 1);
 }
+/* .about-content */
+.about-heading{
+    max-width: 887px;
+    text-align: center;
+    margin: 0 auto;
+  
+}
+.about-heading h2{
+    color: rgba(24, 24, 24, 1);
 
+font-family: Open Sans;
+font-style: Bold;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+
+}
+.about-heading p{
+    color: rgba(117, 117, 117, 1);
+
+font-family: Open Sans;
+font-style: Regular;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.about-info{
+    max-width: 887px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.info-card p{
+
+color: rgba(117, 117, 117, 1);
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.info-card h4{
+font-size: 20px;
+color:rgba(71, 71, 71, 1)02;
+}
 /* main style */
+
 header{
    
-    background: rgba(255, 248, 243, 1);
+   
     background: url(../images/developer.png), url(/images/header_bg.png);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
-    
+    background-color: #FFF8F3;
     padding-top: 50px;
 }
 nav{
@@ -74,7 +126,7 @@ nav .menu a{
 width: 160px;
 height: 64px;
  color: rgba(253, 110, 10, 1);
-
+border: 1px solid rgba(253, 110, 10, 1); ;  
 font-family: Open Sans;
 font-style: Bold;
 font-size: 20px;
@@ -135,4 +187,15 @@ margin-bottom: 30px;
    width: 584px;
 height: 676px;
     vertical-align: middle;
+}
+
+#about{
+    padding-top: 130px;
+}
+#about .about-content{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    text-align: center;
 }
