@@ -1,0 +1,176 @@
+/* =========================
+   MOBILE ONLY (max-width: 576px)
+========================= */
+@media (max-width: 576px) {
+
+  /* ===== HEADER & NAV ===== */
+  header {
+    padding-top: 20px;
+    background-position: center bottom, center bottom;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  nav .menu {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .logo h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  /* ===== BANNER ===== */
+  #banner {
+    margin: 30px auto 0;
+    padding: 0 16px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .banner-content {
+    max-width: 100%;
+  }
+
+  .banner-content h2 {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .banner-content h1 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+
+  .banner-content p {
+    font-size: 16px;
+  }
+
+  .banner-images img {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* ===== ABOUT ===== */
+  #about {
+    padding-top: 80px;
+  }
+
+  #about .about-content {
+    padding: 60px 16px;
+  }
+
+  .about-heading h2 {
+    font-size: 28px;
+  }
+
+  .about-heading p {
+    font-size: 16px;
+  }
+
+  .about-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* ===== SKILLS ===== */
+  .skill {
+    padding-top: 80px;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .skill-box {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* ===== RESUME ===== */
+  #resume {
+    padding-top: 80px;
+  }
+
+  .resume-container {
+    width: 100%;
+    padding: 0 16px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  .resume-card {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-info {
+    font-size: 16px;
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    margin-top: 80px;
+    padding: 80px 0;
+  }
+
+  footer .footer-container {
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 40px;
+  }
+
+  .social h2,
+  .form h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .social p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-container .icons {
+    text-align: center;
+  }
+
+  .footer-container form input[type="text"],
+  .footer-container form textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .text-center {
+    margin-bottom: 50px;
+  }
+}
